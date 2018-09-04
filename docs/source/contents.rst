@@ -24,21 +24,6 @@ link with url in footnote
 
 .. _Website: http://website.com
 
-define anchor
-=============
-
-.. _foo:
-
-link to anchor
-==============
-
-foo_
-
-comment
-=======
-
-.. comment
-   another comment
 
 HTML
 ====
@@ -48,6 +33,12 @@ HTML
 .. |my_header| raw:: html
 
   <h1>foo</h1>
+
+
+image
+=====
+
+.. image:: index.png
 
 
 italic text
@@ -172,3 +163,20 @@ highlighted code
   int add(int a, int b) {
     return (a+b);
   }
+
+define anchor
+=============
+
+.. _foo:
+
+link to anchor
+==============
+
+foo_
+
+comment
+=======
+
+.. comment
+   another comment
+

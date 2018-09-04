@@ -14,32 +14,83 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+link offsite
+============
+
 `Website <http://website.com>`_
+
+link with url in footnote
+=========================
 
 .. _Website: http://website.com
 
+define anchor
+=============
+
 .. _foo:
+
+link to anchor
+==============
+
+foo_
+
+comment
+=======
 
 .. comment
    another comment
 
+HTML
+====
+
 |my_header|
 
+.. |my_header| raw:: html
+
+  <h1>foo</h1>
+
+
+italic text
+===========
 
 *italic text*
 
+bold text
+=========
 
 **bold text**
 
+fixed width text
+================
+
 ``fixed width text``
 
+literal text
+============
+
 \*not italics\*
+
+
+span w/ class
+=============
+
+.. role:: foo
+
+:foo:`text`
 
 
 ==============
 document title
 ==============
 
+line break
+==========
+
+| the line breaks
+| here
+
+document header
+===============
 
 :Date: 2001-08-16
 :Version: 1

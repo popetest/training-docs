@@ -8,6 +8,3 @@ source_suffix = ['.rst', '.md']
 
 extensions = ['sphinx.ext.graphviz']
 
-import sys, os
-sys.path.append(os.path.abspath('exts'))
-extensions = ['foo']

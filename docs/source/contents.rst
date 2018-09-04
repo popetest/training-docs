@@ -19,20 +19,12 @@ link offsite
 
 `Website <http://website.com>`_
 
-link with url in footnote
-=========================
-
-Website_
-
-.. _Website: http://website.com
-
 
 HTML
 ====
 
 |my_header|
 
-this must exist elsewhere in document:
 .. |my_header| raw:: html
 
   <h1>foo</h1>

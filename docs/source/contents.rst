@@ -22,6 +22,8 @@ link offsite
 link with url in footnote
 =========================
 
+Website_
+
 .. _Website: http://website.com
 
 
@@ -30,6 +32,7 @@ HTML
 
 |my_header|
 
+this must exist elsewhere in document:
 .. |my_header| raw:: html
 
   <h1>foo</h1>
@@ -103,6 +106,9 @@ subsubsection header
 level 4 header
 ``````````````
 
+numbered list item
+------------------
+
 1. numbered one
 2. numbered two
 
@@ -112,6 +118,8 @@ level 4 header
 i) roman numeral one
 ii) roma numberal two
 
+definition list
+~~~~~~~~~~~~~~~
 
 one
   the 1st cardinal
@@ -121,20 +129,20 @@ two
 Sample Table
 ============
 
-== ==
-A  B
-== ==
-1  2
-3  4
-== ==
+== == ==
+A  B  c
+== == ==
+1  2  5
+3  4  6
+== == ==
 
-+---+---+
-| A | B |
-+===+===+
-| 1 | 2 |
-+---+---+
-| 3 | 4 |
-+---+---+
++---+---+---+
+| A | B | C |
++===+===+===+
+| 1 | 2 | 3 |
++---+---+---+
+| 3 | 4 | H |
++---+---+---+
 
 multiple column cell
 ====================
@@ -164,15 +172,6 @@ highlighted code
     return (a+b);
   }
 
-define anchor
-=============
-
-.. _foo:
-
-link to anchor
-==============
-
-foo_
 
 comment
 =======

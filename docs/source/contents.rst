@@ -20,15 +20,23 @@ link offsite
 `Website <http://website.com>`_
 
 
-HTML
-====
+Sample Diagram
+==============
 
-|my_header|
+.. graphviz::
 
-.. |my_header| raw:: html
+   digraph Flatland {
 
-  <h1>foo</h1>
+      a -> b -> c -> g;
+      a  [shape=polygon,sides=4]
+      b  [shape=polygon,sides=5]
+      c  [shape=polygon,sides=6]
 
+      g [peripheries=3,color=yellow];
+      s [shape=invtriangle,peripheries=1,color=red,style=filled];
+      w  [shape=triangle,peripheries=1,color=blue,style=filled];
+
+      }
 
 image
 =====
@@ -165,9 +173,9 @@ highlighted code
   }
 
 
-comment
-=======
+latex math
+==========
 
-.. comment
-   another comment
+.. math::
 
+\int_0^\pi \cos (x) dx

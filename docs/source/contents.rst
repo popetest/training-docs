@@ -178,4 +178,10 @@ latex math
 
 .. math::
 
-\int_0^\pi \cos (x) dx
+  \int_0^\pi \cos (x) dx
+
+
+languages which can be highlighted
+==================================
+
+$ pygmentize -L lexers
